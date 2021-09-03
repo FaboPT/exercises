@@ -1,5 +1,7 @@
 <?php
 use App\Controllers\PostController;
+use App\Controllers\UserController;
+use App\Controllers\ReplyController;
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
