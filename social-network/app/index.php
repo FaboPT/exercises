@@ -24,7 +24,7 @@ if (isset($uri[2])) {
 switch ($uri[1]) {
     case 'posts':
         $controller = new PostController($requestMethod, $id);
-        $controller->switchRequest();code...
+        $controller->switchRequest();
         break;
     case 'users':
         $controller = new UserController($requestMethod, $id);
